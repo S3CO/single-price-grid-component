@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 16px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.card {
+    width: 650px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.top {
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 24px;
+}
+.top h2 {
+    color: hsl(71, 73%, 54%);
+}
+
+.top p {
+    color: hsl(218, 22%, 67%);
+    line-height: 1.6;
+}
+.bottom {
+    display: flex;
+    color: hsl(204, 43%, 93%);
+}
+
+.left {
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left h2 {
+    color: white;
+}
+
+.left span {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    vertical-align: middle;
+}
+.left .price {
+    color: hsla(204, 43%, 93%, 0.5);
+}
+
+a {
+    color: #fff;
+    background-color: hsl(71, 73%, 54%);
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.right {
+    background-color: hsla(179, 62%, 43%, 0.7);
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right h2 {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    font-size: 14px;
+    line-height: 1.5;
+    color: hsla(204, 43%, 93%, 0.5);
+}
